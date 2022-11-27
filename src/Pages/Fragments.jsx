@@ -4,8 +4,7 @@ function Fragments() {
   return (
     <>
         <h1>Fragments</h1>
-        <h1>Fragments</h1>
-        <h1>Fragments</h1>
+      
     </>
   )
 }
