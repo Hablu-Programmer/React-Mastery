@@ -7,6 +7,7 @@ import Feedback from './Pages/Feedback';
 import Fragments from './Pages/Fragments';
 import Clipboard from './Pages/Clipboard';
 import Keyboard from './Pages/Keyboard';
+import Focus from './Pages/Focus';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Fragments /> 
         <Clipboard /> 
         <Keyboard /> 
+        <Focus /> 
     </React.Fragment>
   );
 }
