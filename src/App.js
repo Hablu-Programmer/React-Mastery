@@ -6,6 +6,7 @@ import Contact from './Pages/Contact';
 import Feedback from './Pages/Feedback';
 import Fragments from './Pages/Fragments';
 import Clipboard from './Pages/Clipboard';
+import Keyboard from './Pages/Keyboard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Feedback /> 
         <Fragments /> 
         <Clipboard /> 
+        <Keyboard /> 
     </React.Fragment>
   );
 }
