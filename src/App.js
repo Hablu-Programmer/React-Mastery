@@ -8,7 +8,7 @@ import Fragments from './Pages/Fragments';
 import Clipboard from './Pages/Clipboard';
 import Keyboard from './Pages/Keyboard';
 import Focus from './Pages/Focus';
-
+import WelcomeAdmin from './Pages/WelcomeAdmin';
 function App() {
   return (
     <React.Fragment >
@@ -20,6 +20,8 @@ function App() {
         <Clipboard /> 
         <Keyboard /> 
         <Focus /> 
+        <WelcomeAdmin / >
+   
     </React.Fragment>
   );
 }

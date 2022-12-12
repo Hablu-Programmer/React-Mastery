@@ -14,7 +14,7 @@ function Focus() {
         <input type="text" onFocus={FocusText} />
         <input type="text" onBlur={BlurText}/>
     </div>
-  )
+  ) 
 }
 
 export default Focus
