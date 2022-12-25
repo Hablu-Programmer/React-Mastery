@@ -9,10 +9,11 @@ import Clipboard from './Pages/Clipboard';
 import Keyboard from './Pages/Keyboard';
 import Focus from './Pages/Focus';
 import WelcomeAdmin from './Pages/WelcomeAdmin';
+import Style from './Pages/Style';
 function App() {
   return (
     <React.Fragment >
-        <Home />
+        {/* <Home />
         <About />
         <Contact /> 
         <Feedback /> 
@@ -20,7 +21,8 @@ function App() {
         <Clipboard /> 
         <Keyboard /> 
         <Focus /> 
-        <WelcomeAdmin / >
+        <WelcomeAdmin / > */}
+          <Style />
    
     </React.Fragment>
   );

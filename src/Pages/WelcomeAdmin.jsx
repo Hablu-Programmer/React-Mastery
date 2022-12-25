@@ -1,26 +1,25 @@
 import React, { Component } from 'react'
 import Fiter from './Fiter';
 
-export default class WelcomeAdmin extends Component {
-    constructor(props) {
-        super(props)
-      
-        this.state = {
-           YourAge: true
-        }
-      }
+class WelcomeAdmin extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       YourAge:false, 
+    }
+  }
 
   render() {
     let ami
-
-    if(this.state.YourAge){ 
-        return ami = "Welcome hablu Programmer"
+    if(this.state.YourAge){
+      ami = <h1>Welcome Hablu Programmer</h1>; 
     }else{
-        return  ami = <Fiter />
+      ami = <Fiter /> 
     }
- 
     return (
       <div>{ami}</div>
     )
   }
 }
+export default WelcomeAdmin;  
