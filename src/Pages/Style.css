@@ -1,0 +1,7 @@
+.Error{
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}

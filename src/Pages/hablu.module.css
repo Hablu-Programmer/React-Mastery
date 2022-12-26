@@ -1,0 +1,20 @@
+.Error{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.eshan{
+    outline: none;
+    border: none;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
