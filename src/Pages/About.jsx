@@ -25,7 +25,7 @@ class About extends Component{
         return (
             <>
                 <h1>My Profession Is {this.state.Prof} </h1>
-                <button onClick={this.ChangeMind}>Change Value</button>
+                <button className="Btn1" onClick={this.ChangeMind}>Change Value</button>
             </>
         )
     }

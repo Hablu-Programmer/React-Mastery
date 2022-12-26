@@ -1,7 +1,5 @@
 import React from 'react'
 import  "./Style.css"
-import HabluStyles from "./hablu.module.css";
-
 function Style() {
     const ElementOne = {
         color:"White",
@@ -11,11 +9,8 @@ function Style() {
   return (
     <div>
         <h1 style={ElementOne}>my first style component</h1>
-        <h2 className='Error'>welcome to hablu programmer</h2>
-        <h2 className='Error'>welcome to hablu programmer</h2>
-        <h2 className='Error'>welcome to hablu programmer</h2>
-        <h2 className={HabluStyles.Error}>welcome to hablu programmer</h2>
-        <button className={HabluStyles.eshan}>Click Me</button>
+        <h2 className='hablu'>welcome to hablu programmer</h2>
+        <p>this p tag 2</p>
     </div>
   )
 }

@@ -5,3 +5,28 @@
     font-style: italic;
     margin-top: 10px;
 }
+
+p{
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Btn {
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+    border: none;
+    margin:15px;
+}
+.Btn1 {
+    background-color: yellowgreen;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+    border: none;
+    margin:15px;
+}
