@@ -1,16 +1,17 @@
 import React from 'react';
-import './App.css';
-// import ReactBootstrap from './Pages/ReactBootstrap';
-import Input from './Pages/Form/Input';
-
+import Carousel from './Pages/BlogWebsite/Carousel';
+// import './App.css';
+import Navbar from './Pages/BlogWebsite/Navbar';
 function App() {
   return (
-    <React.Fragment >
-      {/* <ReactBootstrap / > */}
-        <Input />
-    </React.Fragment>
+    <>
+      <Navbar / > 
+      <Carousel />
+    </>
   );
-}
+} 
+
+
 
 export default App;
 

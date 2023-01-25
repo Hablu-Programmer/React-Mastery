@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.carousel-item {
+    background-color: #F8F9FA !important;
+    
+}
+.Short {
+    font-size: 16px;
+    color: #5d5d5d;
+}
+.Short1 {
+    font-size: 15px;
+    color: #5d5d5d;
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+.title {
+font-size: 20px;
+color: black;
+}
+.carousel-control-prev-icon  {
+    background-image: url(arrow-left-circle-fill.svg) !important;
+    margin-left: -200px;
+}
+
+.carousel-control-next-icon  {
+    background-image: url(arrow-right-circle-fill.svg) !important;
+    margin-right: -200px !important;
+}
